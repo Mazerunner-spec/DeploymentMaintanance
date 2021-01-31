@@ -1,0 +1,79 @@
+1. Do some research about the different approaches to deployment. What  are the pros and cons of each? When would you use each approach?  
+
+  Answers:
+
+ - Parallel Deployment
+
+-  In this approach, the old and new systems operate in parallel when the new system is first introduced. 
+   After a while, once the new system is stable, the old system is switched off.  
+
+- Advantages:
+
+   --> In order to ensure correctness, the old- and new system can be compared with regards to output.
+   --> There is little risk of losing data since the old- and new system is used/running.
+
+- Disadvantages:
+
+   --> More time consuming since users must enter data into two different systems.
+   --> The data could be diffent in two different systems if the is extensive data entry.
+
+ - Phased Deployment
+
+  -  In this approach, the new system is deployed in phases while the old system is still running. 
+     Once the new system is fully integrated and stable, the old system is switched off.  
+    
+ - Advantages:
+
+   --> Training can be completed in small parts.
+   --> A failure of the new system has minimal impact because it is only one small part
+   --> Scalling isues can be addressed without major impact.
+
+- Disadvantages
+    
+   --> This approach (phased deployment) takes more time to get the new system fully online in relation to other approaches.
+   --> If part of the new system fails, there is a possibility of data loss.
+
+ - Direct Deployment
+
+ - In this approach, the old system is turned off and the new system is quickly installed and made operational.
+
+- Advantages:
+
+   --> If the system is not critical, this can be a good method for implementation.
+
+- Disadvantages:
+
+   --> If you are not sure the system will work, this method of implementation may not be a good idea
+
+Scenarios and the deployment approaches most applicable:
+
+2.  A second-hand book shop is converting from a paper system to digital, and they've asked you to develop their catalogue software.  After finishing, how do you deploy it and why? 
+
+Answer:
+
+ - Direct deployment will be used here. 
+   Since the old system is a paper system the new system can be implemented digitally and thus other deployment approaches will not be needed.
+
+3. A large retail chain has asked you to develop a more modern set of  tools for their use, including point-of-sale systems, stock records,  and customer service systems. After finishing, how do you deploy it  and why? 
+
+Answer: 
+
+- Since the retail chain is large in terms of systems that need update such as the mentioned stock records- and customer service sytems, phased deployment
+ with elements of the new system introduced in parts will suffice, while the old system is still running.
+
+4. You have developed an alternate fire alarm system for a large  shopping centre. This system's reliability is of utmost importance.  
+    After finishing, how do you deploy it and why? 
+
+Answer:
+
+- Since the fire alarm - whether old or new, current or alternative - must always be in use and reliable, 
+a paralell deployment approach is needed where the old- and new (alternative) fire alarm system
+run in conjuction until the utmost reliability of such fire alarm system is established.
+
+Sources:
+
+https://computersciencewiki.org/index.php/Implementation_methods
+HyperionDev source material for Software Engineering - Task 15 level 3
+
+
+
